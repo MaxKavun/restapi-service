@@ -8,3 +8,4 @@ def index():
 @app.route('/greet')
 def say_hello():
   return 'Hello from Server'
+app.run(host='0.0.0.0', port=5000)
